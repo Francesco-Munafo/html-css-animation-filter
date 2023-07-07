@@ -217,3 +217,55 @@
     transform: rotate(0);
 }
 }
+
+/* #endregion Ex11 */
+
+/* #region Ex12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: topwhite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+@keyframes topwhite {
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: calc(100% - 70px);
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: bottomwhite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottomwhite {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: calc(100% - 70px);
+    }
+
+    100%{
+        right: 20%;
+    }
+    
+}
+
+/* #endregion Ex12 */
+
+/* #region Ex13 */
+
+
+
+/* #endregion Ex13 */
